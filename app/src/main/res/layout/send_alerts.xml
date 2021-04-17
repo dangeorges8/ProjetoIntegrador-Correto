@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/buraco"
+        app:srcCompat="@mipmap/buraco"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/poste_round"
+        app:srcCompat="@mipmap/poste_round"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/onibus_round"
+        app:srcCompat="@mipmap/onibus_round"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/acidente_round"
+        app:srcCompat="@mipmap/acidente_round"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bloqueio_round"
+        app:srcCompat="@mipmap/bloqueio_round"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/preco_round"
+        app:srcCompat="@mipmap/preco_round"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
