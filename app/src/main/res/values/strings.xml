@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ProjetoIntegrador</string>
+    <string name="buraco">Buraco</string>
+    <string name="poste">Poste</string>
+    <string name="nibus">Ônibus</string>
+    <string name="onibus">Ônibus</string>
+    <string name="acidente">Acidente</string>
+    <string name="bloqueio">Bloqueio</string>
+    <string name="preco">Preço</string>
+    <string name="alertas">Alertas</string>
+    <string name="iluminacao">Iluminação</string>
 </resources>
