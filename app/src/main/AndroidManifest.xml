@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoIntegrador">
         <activity android:name=".Activity.Login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.SendAlerts" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity.DescricaoGeral" />
+        <activity android:name=".Activity.DescricaoOnibus" />
+        <activity android:name=".Activity.DescricaoPreco" />
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
